@@ -68,8 +68,9 @@ public class travel {
 	}
 
 	@When("user submit the medical condition survey")
-	public void user_submit_the_medical_condition_survey() {
+	public void user_submit_the_medical_condition_survey() throws InterruptedException {
 		ti.medicalsurvey();
+		Thread.sleep(3000);
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new io.cucumber.java.PendingException();
 	}

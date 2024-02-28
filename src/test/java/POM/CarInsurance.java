@@ -175,7 +175,7 @@ public class CarInsurance extends BasePage{
 	
 	public void screenshot() throws IOException, HeadlessException, AWTException {
 		BufferedImage img1=new Robot().createScreenCapture(new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
-		ImageIO.write(img1, "png", new File("C:\\Users\\2304127\\eclipse-workspace\\hackathonp\\src\\test\\java\\Screenshottts\\errormsg.png"));
+		ImageIO.write(img1, "png", new File("C:\\Users\\2303832\\Downloads\\hackathonp 7\\hackathonp\\src\\test\\java\\Screenshottts\\errormsg.png"));
 //		TakesScreenshot ts=(TakesScreenshot)driver;
 //        File src=ts.getScreenshotAs(OutputType.FILE);
 //        File trg=new File("C:\\Users\\2304127\\eclipse-workspace\\hackathonp\\screenshot");
