@@ -23,9 +23,7 @@ public class travel {
 	@Given("user is on the policy bazaar site")
 	public void user_is_on_the_policy_bazaar_site() throws InterruptedException {
 		Thread.sleep(3000);
-	    // Write code here that turns the phrase above into concrete actions
-	   // throw new io.cucumber.java.PendingException();
-	}
+	   	}
 
 	@When("user click on travel insurance")
 	public void user_click_on_travel_insurance() {

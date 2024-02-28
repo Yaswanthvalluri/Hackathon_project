@@ -247,7 +247,7 @@ public class TravelInsurance extends BasePage {
 	
 	public void medicalsurvey() {
 		surveyno.click();
-		proced.click();
+	//	proced.click();
 	}
 	
 	public void travelbuttoncheck() {

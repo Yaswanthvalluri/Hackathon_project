@@ -18,7 +18,7 @@ public class BaseClass {
 			
 			public  static WebDriver initializeBrowser() throws IOException
 			{
-				
+				 
 					switch(getProperties().getProperty("browser").toLowerCase()) 
 					{
 					case "chrome":
@@ -38,7 +38,7 @@ public class BaseClass {
 				// driver.manage().deleteAllCookies(); 
 				 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 				 //driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(5));
-				 return driver;
+				 return driver; 
 			}
 			public static WebDriver getDriver() {
 				return driver;
